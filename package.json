@@ -1,21 +1,16 @@
 {
   "name": "telemedrdc",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "devStart": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "socket.io": "^4.8.1",
-    "uuid": "^11.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+    "getusermedia": "^2.0.1",
+    "simple-peer": "^9.11.1"
   }
 }
