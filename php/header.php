@@ -9,4 +9,4 @@
 <link href="http://<?=$_SERVER['HTTP_HOST']?>/lib/animate/animate.min.css" rel="stylesheet">
 <link href="http://<?=$_SERVER['HTTP_HOST']?>/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="http://<?=$_SERVER['HTTP_HOST']?>/css/bootstrap.min.css" rel="stylesheet">
-<link href="http://<?=$_SERVER['HTTP_HOST']?>/css/style.css" rel="stylesheet">
+<link href="http://<?=$_SERVER['HTTP_HOST']?>/css/bundle.css" rel="stylesheet">
