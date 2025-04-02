@@ -3,7 +3,7 @@
         <div class="row g-5 py-5">
             <div class="col-lg-6 pe-lg-5">
                 <a href="index.html" class="navbar-brand">
-                    <img src="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/img/logo_blanc.png" style="max-height: 100px;" alt="Logo">
+                    <img src="http://<?=$_SERVER['HTTP_HOST']?>/img/logo_blanc.png" style="max-height: 100px;" alt="Logo">
                 </a>
                 <p class="fs-5 mb-4">TéléMedRDC est une solution innovante et adaptée aux besoins de la population congolaise, permettant de moderniser l’accès aux soins et d’améliorer la prise en charge médicale grâce aux nouvelles technologies.</p>
                 <p><i class="fa fa-map-marker-alt me-2"></i>Kinshasa ISIPA</p>
@@ -20,10 +20,10 @@
                 <div class="row g-5">
                     <div class="col-sm-6">
                         <h4 class="text-light mb-4">Liens rapides</h4>
-                        <a class="btn btn-link" href="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/">Accueil</a>
-                        <a class="btn btn-link" href="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/consult/">Consultation</a>
-                        <a class="btn btn-link" href="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/about/">A propos</a>
-                        <a class="btn btn-link" href="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/contact/">Contactez-nous</a>
+                        <a class="btn btn-link" href="http://<?=$_SERVER['HTTP_HOST']?>/">Accueil</a>
+                        <a class="btn btn-link" href="http://<?=$_SERVER['HTTP_HOST']?>/consult/">Consultation</a>
+                        <a class="btn btn-link" href="http://<?=$_SERVER['HTTP_HOST']?>/about/">A propos</a>
+                        <a class="btn btn-link" href="http://<?=$_SERVER['HTTP_HOST']?>/contact/">Contactez-nous</a>
                     </div>
                     <div class="col-sm-6">
                         <h4 class="text-light mb-4">Liens populaires</h4>

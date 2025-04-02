@@ -1,8 +1,5 @@
 <?php
-    require_once __DIR__ . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'init.php';
-    require_once __DIR__ . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'private' . DIRECTORY_SEPARATOR . 'function.php';
     $title = "Télé Med RDC";
-    $description = "";
     $current = 'home';
 ?>
 
@@ -10,12 +7,9 @@
 <html lang="fr">
     <head>
         <title><?=$title?></title>
-        <meta content="<?=$title?>" name="title">
-        <meta content="<?=$description?>" name="description">
         <?php require __DIR__ . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'header.php' ?>
     </head>
     <body>
-        <?php require __DIR__ . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'loader.php' ?>
         <?php require __DIR__ . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'navbar.php' ?>
         <div class="container-fluid header-carousel px-0 mb-5">
             <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -28,7 +22,7 @@
                                     <div class="col-lg-7 text-start">
                                         <h1 class="display-1 text-white animated slideInRight mb-3">Des Consultations en Ligne ?</h1>
                                         <p class="mb-5 animated slideInRight">La télémédecine connaît un essor considérable à travers le monde, offrant des solutions accessibles aux populations éloignées des centres de santé.</p>
-                                        <a href="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/contact/" class="btn btn-primary py-3 px-5 animated slideInRight">Nous Contacter</a>
+                                        <a href="http://<?=$_SERVER['HTTP_HOST']?>/contact/" class="btn btn-primary py-3 px-5 animated slideInRight">Nous Contacter</a>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +36,7 @@
                                     <div class="col-lg-7 text-end">
                                         <h1 class="display-1 text-white animated slideInLeft mb-3">Objectif Principal</h1>
                                         <p class="mb-5 animated slideInLeft">Développer une plateforme de télémédecine qui permet aux patients de consulter des médecins en ligne via visioconférence, réduisant ainsi les contraintes géographiques et financières liées aux soins médicaux.</p>
-                                        <a href="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/contact/" class="btn btn-primary py-3 px-5 animated slideInLeft">Prendre rendez-vous</a>
+                                        <a href="http://<?=$_SERVER['HTTP_HOST']?>/contact/" class="btn btn-primary py-3 px-5 animated slideInLeft">Prendre rendez-vous</a>
                                     </div>
                                 </div>
                             </div>

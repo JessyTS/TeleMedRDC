@@ -1,8 +1,5 @@
 <?php
-    require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'init.php';
-    require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'private' . DIRECTORY_SEPARATOR . 'function.php';
     $title = "Télé Med RDC";
-    $description = "";
     $current = 'contact';
 ?>
 
@@ -10,19 +7,16 @@
 <html lang="fr">
     <head>
         <title><?=$title?></title>
-        <meta content="<?=$title?>" name="title">
-        <meta content="<?=$description?>" name="description">
         <?php require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'header.php' ?>
     </head>
     <body>
-        <?php require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'loader.php' ?>
         <?php require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'navbar.php' ?>
         <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container text-center py-5 mt-4">
                 <h1 class="display-2 text-white mb-3 animated slideInDown">Contact</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/">Accueil</a></li>
+                        <li class="breadcrumb-item"><a href="http://<?=$_SERVER['HTTP_HOST']?>/">Accueil</a></li>
                         <li class="breadcrumb-item" aria-current="page">Contact</li>
                     </ol>
                 </nav>

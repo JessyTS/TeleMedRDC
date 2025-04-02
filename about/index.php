@@ -1,8 +1,5 @@
 <?php
-    require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'init.php';
-    require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'private' . DIRECTORY_SEPARATOR . 'function.php';
     $title = "Télé Med RDC";
-    $description = "";
     $current = 'about';
 ?>
 
@@ -10,19 +7,16 @@
 <html lang="fr">
     <head>
         <title><?=$title?></title>
-        <meta content="<?=$title?>" name="title">
-        <meta content="<?=$description?>" name="description">
         <?php require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'header.php' ?>
     </head>
     <body>
-        <?php require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'loader.php' ?>
         <?php require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'php' . DIRECTORY_SEPARATOR . 'navbar.php' ?>
         <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container text-center py-5 mt-4">
                 <h1 class="display-2 text-white mb-3 animated slideInDown">TéléMedRDC</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/">Accueil</a></li>
+                        <li class="breadcrumb-item"><a href="http://<?=$_SERVER['HTTP_HOST']?>/">Accueil</a></li>
                         <li class="breadcrumb-item" aria-current="page">A propos</li>
                     </ol>
                 </nav>
@@ -34,13 +28,13 @@
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="row g-0">
                             <div class="col-6">
-                                <img class="img-fluid" src="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/img/about-1.jpg">
+                                <img class="img-fluid" src="http://<?=$_SERVER['HTTP_HOST']?>/img/about-1.jpg">
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid" src="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/img/about-2.jpg">
+                                <img class="img-fluid" src="http://<?=$_SERVER['HTTP_HOST']?>/img/about-2.jpg">
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid" src="<?=$protocol?>://<?=$_SERVER['HTTP_HOST']?>/img/about-3.jpg">
+                                <img class="img-fluid" src="http://<?=$_SERVER['HTTP_HOST']?>/img/about-3.jpg">
                             </div>
                             <div class="col-6">
                                 <div class="bg-primary w-100 h-100 mt-n5 ms-n5 d-flex flex-column align-items-center justify-content-center">
